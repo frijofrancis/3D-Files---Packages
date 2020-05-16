@@ -1,0 +1,18 @@
+SolidWorks 3D Model Parameter For Proteus:
+Model Name: LED 5mm 
+Compatible Proteus Footprint: LED  
+
+>> Right click on proteus footprint and select "3D Models..." 
+>> Select M-CAD (STEP or IGES) File 
+>> Copy the "LED5mmAssemblyRedSTEP.STEP" in the "C:\ProgramData\Labcenter Electronics\Proteus 8 Professional\MCAD" directory. 
+>> Set the following parameter: 
+--------------------------------------------------------------------- 
+Parameter		X 		Y 		Z  
+
+>> Rotation 		90		0		-90 
+>> Offset 	       0.5mm 	      4.4mm 	       -3mm 
+
+---------------------------------------------------------------------  
+
+>> Enjoy !!!! 
+ 
