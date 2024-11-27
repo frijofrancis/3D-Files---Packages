@@ -1,0 +1,109 @@
+{
+    "author": {
+        "email": "frijo.francis@autodesk.com",
+        "name": "Frijo Francis"
+    },
+    "description": {
+        "EN": "CAM job description goes here."
+    },
+    "output_type": "directory",
+    "outputs": [
+        {
+            "compress_output": true,
+            "export_cad_netlist": true,
+            "export_eda_component_attributes": true,
+            "export_eda_data": true,
+            "export_eda_footprint_names": true,
+            "export_eda_net_attributes": true,
+            "export_job_name_instead_of_product_model_name": true,
+            "export_layer_features_count": true,
+            "export_neutral_net_names": false,
+            "export_step_profile_board_cutouts": true,
+            "export_step_profile_from_board_shape": true,
+            "export_text_attributes": true,
+            "export_unique_id": true,
+            "export_unit": true,
+            "filename_prefix": "CAMOutputs/ODBFiles",
+            "generate_job_file": true,
+            "output_name": "practice-relay_baton_v17",
+            "output_type": "odb++",
+            "outputs": [
+            ],
+            "prepend_netattributes_with_numbersign": true,
+            "use_teamhub_location": false
+        },
+        {
+            "filename_prefix": "CAMOutputs/GerberFiles",
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 3
+            },
+            "generate_job_file": true,
+            "gerber_job_filepath": "%TEAMHUBNAME/%PROJECTNAME/%PREFIX/gerber_job.gbrjob",
+            "output_type": "gerber",
+            "outputs": [
+            ],
+            "version": "RS274X"
+        },
+        {
+            "extension_type": "pdf",
+            "filename_prefix": "CAMOutputs/ImageFiles",
+            "fit_to_Page": true,
+            "monochrome": true,
+            "output_type": "image",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": true,
+                    "extension_type": "pdf",
+                    "filename_format": "%TEAMHUBNAME/%PROJECTNAME/%IMAGEPREFIX/%NAME",
+                    "fit_to_Page": true,
+                    "layers": [
+                        16,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "WireTrace",
+                    "negative": false,
+                    "orientation": "portrait",
+                    "page_size": "A4",
+                    "pdf_filename": "%N",
+                    "type": "image_item"
+                }
+            ],
+            "page_size": "A4",
+            "pdf_filename": "%N"
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrillFiles",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
+        }
+    ],
+    "timestamp": "2024-11-13T17:57:15",
+    "type": "Fusion Electronics CAM job",
+    "units": "metric",
+    "version": "9.2.0"
+}
